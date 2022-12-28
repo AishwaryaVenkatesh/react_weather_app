@@ -22,6 +22,9 @@ export default function App() {
           Open Sourced
         </a>{" "}
       </p>
+      <button class="btn btn-primary" type="submit">
+        Button
+      </button>
     </div>
   );
 }
