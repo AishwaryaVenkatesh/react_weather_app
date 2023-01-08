@@ -1,9 +1,11 @@
 import "./App.css";
+import Weather from "./Weather";
 
 export default function App() {
   return (
     <div className="Weatherapp">
       <h1> Weather app </h1>
+      <Weather />
       <p>
         This project was coded by{" "}
         <a
