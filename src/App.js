@@ -1,12 +1,13 @@
 import "./App.css";
+import React from "react";
 import Weather from "./Weather";
 
 export default function App() {
   return (
-    <div className="Weatherapp">
+    <div className="App">
       <h1> Weather app </h1>
-      <Weather />
-      <p>
+      <Weather defaultCity="Chennai" />
+      <p className="footer">
         This project was coded by{" "}
         <a
           href="https://aishwaryavenkatesh.github.io/"
@@ -24,9 +25,6 @@ export default function App() {
           Open Sourced
         </a>{" "}
       </p>
-      <button class="btn btn-primary" type="submit">
-        Button
-      </button>
     </div>
   );
 }
