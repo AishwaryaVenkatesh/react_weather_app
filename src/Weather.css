@@ -55,10 +55,10 @@
   line-height: 64px;
 }
 
-.Weather .temperature {
+.weather_temperature {
   font-weight: bold;
   color: rgb(63, 76, 119);
-  font-size: 54px;
+  font-size: 50px;
   /* line-height: 50px; */
   font-weight: 400;
 }
