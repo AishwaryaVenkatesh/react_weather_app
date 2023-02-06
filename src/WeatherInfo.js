@@ -13,7 +13,7 @@ export default function WeatherInfo(props) {
         <li className="text-capitalize">{props.data.description}</li>
       </ul>
       <div className="row mt-3">
-        <div class="col-8">
+        <div class="col-8 img_temp">
           <div className="clearfix">
             <div className="float-left">
               <img
@@ -23,7 +23,8 @@ export default function WeatherInfo(props) {
               />
             </div>
             <div className="float-left weather_temperature">
-              {Math.round(props.data.temperature)}°C
+              {Math.round(props.data.temperature)}
+              <sup className="weather_unit">°C</sup>
             </div>
           </div>
         </div>

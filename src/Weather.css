@@ -48,11 +48,18 @@
   cursor: pointer;
 }
 
+.Weather .img_temp {
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
 .Weather .img {
   height: 80px;
   width: 100px;
   margin-right: 10px;
   line-height: 64px;
+  display: inline-block;
+  margin-left: 20px;
 }
 
 .weather_temperature {
@@ -61,9 +68,11 @@
   font-size: 50px;
   /* line-height: 50px; */
   font-weight: 400;
+  display: inline-block;
+  margin-left: 20px;
 }
 
-.Weather .unit {
+.weather_unit {
   font-weight: bold;
   color: rgb(63, 76, 119);
   font-size: 24px;
