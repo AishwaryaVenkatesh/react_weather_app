@@ -57,11 +57,11 @@ export default function Weather(props) {
                 value="Search"
                 className="submitbutton"
               ></input>
-              <input
+              {/* <input
                 type="submit"
                 value="Current Location"
                 className="currentlocation"
-              ></input>
+              ></input> */}
             </div>
           </div>
         </form>
